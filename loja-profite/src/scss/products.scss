@@ -1,0 +1,62 @@
+.product-item {
+	a {
+		display: block;
+		text-align: center;
+		color: black;
+		padding: 20px 0;
+
+		.figure {
+			text-align: center;
+		}
+
+		h2 {
+			font-size: 14px;
+			font-weight: bold;
+		}
+
+		.stars {
+			width: 100%;
+			text-align: center;
+			margin: 10px 0;
+		}
+
+		p {
+			font-size: 12px;
+			font-weight: 400;
+		}
+
+		button {
+			background: black;
+			color: white;
+			text-transform: uppercase;
+			font-size: 12px;
+			font-style: italic;
+			border: none;
+			padding: 8px 18px;
+
+			img {
+				width: 19px;
+				display: inline-table;
+				vertical-align: middle;
+				margin-right: 8px;
+			}
+		}
+
+		.economize {
+			font-size: 10px;
+			border: 1px solid black;
+			background: white;
+			width: auto;
+			padding: 2px;
+			margin: 10px auto 0 auto;
+			width: 70%;
+		}
+	}
+
+	&:hover {
+		a {
+			text-decoration: none;
+			background: $main-color;
+		}
+	}
+}

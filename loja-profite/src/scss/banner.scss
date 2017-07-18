@@ -1,0 +1,16 @@
+#banner {
+	width: 100%;
+	background: $main-color;
+
+	.carousel-inner {
+		.item {
+			img {
+				width: 100%;
+			}
+		}
+	}
+
+	.carousel-control {
+		background-image: none;
+	}
+}

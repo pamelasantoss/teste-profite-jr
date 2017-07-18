@@ -1,0 +1,30 @@
+@media(max-width: 992px) {
+	header {
+		.brand {
+			width: 100% !important;
+			text-align: center;
+
+			img {
+				max-width: 45% !important;
+			}
+		}
+
+		.login {
+			position: absolute;
+			right: 0;
+			width: auto;
+		}
+
+		.search {
+			clear: both;
+		}
+	}
+}
+
+@media(max-width: 768px) {
+	footer {
+		.infos {
+			margin-bottom: 10px !important;
+		}
+	}
+}

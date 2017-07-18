@@ -1,4 +1,8 @@
 @charset "UTF-8";
+body {
+  font-family: 'Arial', Helvetica, Sans-serif;
+}
+
 #banner {
   width: 100%;
   background: #ffc51c;
@@ -71,6 +75,47 @@
   background: #ffc51c;
 }
 
+/* Modal */
+.modal-dialog {
+  width: 80%;
+}
+
+.modal-content {
+  text-align: center;
+}
+
+.modal-content img {
+  max-width: 100%;
+}
+
+#ProductSlider .carousel-control {
+  background-image: none;
+}
+
+@media (max-width: 992px) {
+  header .brand {
+    width: 100% !important;
+    text-align: center;
+  }
+  header .brand img {
+    max-width: 45% !important;
+  }
+  header .login {
+    position: absolute;
+    right: 0;
+    width: auto;
+  }
+  header .search {
+    clear: both;
+  }
+}
+
+@media (max-width: 768px) {
+  footer .infos {
+    margin-bottom: 10px !important;
+  }
+}
+
 /* Topo */
 header {
   padding: 20px 0;
@@ -133,6 +178,18 @@ header .search input {
   z-index: 2 !important;
 }
 
+header .search input::-webkit-input-placeholder {
+  color: black;
+}
+
+header .search input::-moz-placeholder {
+  color: black;
+}
+
+header .search input::-ms-input-placeholder {
+  color: black;
+}
+
 header .contact {
   text-align: right;
   margin-top: 10px;
@@ -171,6 +228,11 @@ header .contact .skype-tel li {
 footer {
   background: #eee;
   padding: 40px 0;
+}
+
+footer .rodape {
+  float: none;
+  margin: 0 auto;
 }
 
 footer .infos {

@@ -1,6 +1,9 @@
+@import 'fonts';
 @import 'colors';
 @import 'banner';
 @import 'products';
+@import 'carousel';
+@import 'mobile';
 
 /* Topo */
 header {
@@ -60,6 +63,18 @@ header {
 			border: none;
 			border-radius: 0 12px 12px 0;
 			z-index: 2 !important;
+
+			&::-webkit-input-placeholder {
+				color: black;
+			}
+
+			&::-moz-placeholder {
+				color: black;
+			}
+
+			&::-ms-input-placeholder {
+				color: black;
+			}
 		}
 	}
 
@@ -102,6 +117,11 @@ header {
 footer {
 	background: #eee;
 	padding: 40px 0;
+
+	.rodape {
+		float: none;
+		margin: 0 auto;
+	}
 
 	.infos {
 		margin: 0;

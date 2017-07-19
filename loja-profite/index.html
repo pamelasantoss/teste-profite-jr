@@ -105,133 +105,50 @@
 
 		<section id="content">
 			<div class="container">
-				<div id="ProductSlider" class="carousel fdi-Carousel slide">
-					<div class="carousel-inner">
-						<div class="item active">
-							<article class="active product-item col-md-3 col-sm-4">
-								<a href="">
-									<div class="figure">
-										<img src="images/produtos/calcado1.png" alt="Calçado1" />
-									</div>
-
-									<h2>Sandália Ferracini Ecologic</h2>
-									<div class="stars"><img src="images/estrelas.png" alt="Avaliação" /></div>
-									<p>
-										Por: <em><strong>R$ 95,92</strong><br />
-										ou <strong>até 4X</strong> de <strong>R$ 23,98</strong></em>
-									</p>
-
-									<button><img src="images/icones/carrinho.png" />Comprar</button>
-
-									<p class="economize">Economize: R$ 43,98</p>
-								</a>
-							</article>
-						</div>
-
-						<div class="item">
-							<article class="active product-item col-md-3 col-sm-4">
-								<a href="">
-									<div class="figure">
-										<img src="images/produtos/calcado1.png" alt="Calçado1" />
-									</div>
-
-									<h2>Sandália Ferracini Ecologic</h2>
-									<div class="stars"><img src="images/estrelas.png" alt="Avaliação" /></div>
-									<p>
-										Por: <em><strong>R$ 95,92</strong><br />
-										ou <strong>até 4X</strong> de <strong>R$ 23,98</strong></em>
-									</p>
-
-									<button><img src="images/icones/carrinho.png" />Comprar</button>
-
-									<p class="economize">Economize: R$ 43,98</p>
-								</a>
-							</article>
-						</div>
-
-						<div class="item">
-							<article class="active product-item col-md-3 col-sm-4">
-								<a href="">
-									<div class="figure">
-										<img src="images/produtos/calcado1.png" alt="Calçado1" />
-									</div>
-
-									<h2>Sandália Ferracini Ecologic</h2>
-									<div class="stars"><img src="images/estrelas.png" alt="Avaliação" /></div>
-									<p>
-										Por: <em><strong>R$ 95,92</strong><br />
-										ou <strong>até 4X</strong> de <strong>R$ 23,98</strong></em>
-									</p>
-
-									<button><img src="images/icones/carrinho.png" />Comprar</button>
-
-									<p class="economize">Economize: R$ 43,98</p>
-								</a>
-							</article>
-						</div>
-
-						<div class="item">
-							<article class="active product-item col-md-3 col-sm-4">
-								<a href="">
-									<div class="figure">
-										<img src="images/produtos/calcado1.png" alt="Calçado1" />
-									</div>
-
-									<h2>Sandália Ferracini Ecologic</h2>
-									<div class="stars"><img src="images/estrelas.png" alt="Avaliação" /></div>
-									<p>
-										Por: <em><strong>R$ 95,92</strong><br />
-										ou <strong>até 4X</strong> de <strong>R$ 23,98</strong></em>
-									</p>
-
-									<button><img src="images/icones/carrinho.png" />Comprar</button>
-
-									<p class="economize">Economize: R$ 43,98</p>
-								</a>
-							</article>
-						</div>
-
-						<div class="item">
-							<article class="active product-item col-md-3 col-sm-4">
-								<a href="#myModal">
-									<div class="figure">
-										<img src="images/produtos/calcado1.png" alt="Calçado1" />
-									</div>
-
-									<h2>Sandália Ferracini Ecologic</h2>
-									<div class="stars"><img src="images/estrelas.png" alt="Avaliação" /></div>
-									<p>
-										Por: <em><strong>R$ 95,92</strong><br />
-										ou <strong>até 4X</strong> de <strong>R$ 23,98</strong></em>
-									</p>
-
-									<button><img src="images/icones/carrinho.png" />Comprar</button>
-
-									<p class="economize">Economize: R$ 43,98</p>
-								</a>
-							</article>
-						</div>
-					</div>
+				<div id="ProductSlider" class="resCarousel" data-items="2-4-4-4" data-interval="4000" data-speed="900" data-slide="1">
+					<div class="resCarousel-inner"></div>
 
 					<!-- navigation -->
-					<a class="left carousel-control" href="#ProductSlider" data-slide="prev">
-						<span class="icon-prev"></span>
-					</a>
-
-					<a class="right carousel-control" href="#ProductSlider" data-slide="next">
-						<span class="icon-next"></span>
-					</a>
+					<button class='btn btn-default leftRs'><img src="images/icones/seta_esquerda.png" /></button>
+  					<button class='btn btn-default rightRs'><img src="images/icones/seta_direita.png" /></button>
 				</div><!-- #ProductSlider -->
 
 				<!-- Modal -->
-				<div id="myModal" class="modal fade" role="dialog">
+				<div id="Modal1" class="modal fade" role="dialog">
 					<div class="modal-dialog">
 						<div class="modal-content">
-							<a href="#" class="close" data-dismiss="modal"><img src="images/icones/fechar.png" /></a>
+							<a href="#" class="fechar" data-dismiss="modal"><img src="images/icones/fechar.png" /></a>
 							<img src="images/produtos/zoom/calcado1_zoom.png" alt="Calçado1" />
 						</div>
 					</div>
-				</div><!-- #myModal -->
+				</div><!-- #Modal1 -->
+
+				<div id="Modal2" class="modal fade" role="dialog">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<a href="#" class="fechar" data-dismiss="modal"><img src="images/icones/fechar.png" /></a>
+							<img src="images/produtos/zoom/calcado2_zoom.png" alt="Calçado2" />
+						</div>
+					</div>
+				</div><!-- #Modal2 -->
+
+				<div id="Modal3" class="modal fade" role="dialog">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<a href="#" class="fechar" data-dismiss="modal"><img src="images/icones/fechar.png" /></a>
+							<img src="images/produtos/zoom/calcado3_zoom.png" alt="Calçado3" />
+						</div>
+					</div>
+				</div><!-- #Modal3 -->
+
+				<div id="Modal4" class="modal fade" role="dialog">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<a href="#" class="fechar" data-dismiss="modal"><img src="images/icones/fechar.png" /></a>
+							<img src="images/produtos/zoom/calcado4_zoom.png" alt="Calçado4" />
+						</div>
+					</div>
+				</div><!-- #Modal4 -->
 			</div>
 		</section><!-- #content -->
 
@@ -253,7 +170,7 @@
 					<li>
 						<p>
 							Rua Cardoso de Melo, 1750<br />
-							6o Andar Vila Olímpia<br />
+							6º Andar Vila Olímpia<br />
 							<strong>tel.: +55 (11) 2263.6044</strong>
 						</p>
 					</li>
@@ -271,16 +188,16 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="js/bootstrap.min.js"></script>
+		<!-- Script -->
+		<script type="text/javascript" src="js/script.js"></script>
+		<!-- Plugin Carousel Slider -->
+		<script type="text/javascript" src="js/resCarousel.js"></script>
 
 		<!-- banner -->
 		<script>
 			$(document).ready(function(){
 				$('#BannerCarousel').carousel({
 					interval: 3000
-				});
-
-				$('#ProductSlider').carousel({
-					//interval: 4000
 				});
 			});
 		</script>

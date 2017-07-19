@@ -22,6 +22,16 @@
 }
 
 @media(max-width: 768px) {
+	header {
+		.login {
+			position: relative;
+		}
+	}
+
+	.modal-dialog {
+		width: 96%;
+	}
+
 	footer {
 		.infos {
 			margin-bottom: 10px !important;

@@ -25,6 +25,14 @@
 			font-weight: 400;
 		}
 
+		.from {
+			font-size: 11px;
+			font-style: italic;
+			color: #9c9c9c;
+			display: block;
+			text-decoration: line-through;
+		}
+
 		button {
 			background: black;
 			color: white;
@@ -44,12 +52,11 @@
 
 		.economize {
 			font-size: 10px;
-			border: 1px solid black;
+			border: 1px solid #9c9c9c;
 			background: white;
-			width: auto;
 			padding: 2px;
 			margin: 10px auto 0 auto;
-			width: 70%;
+			width: 50%;
 		}
 	}
 
@@ -62,14 +69,33 @@
 }
 
 /* Modal */
+.modal {
+	padding: 0 !important;
+}
+
 .modal-dialog {
-	width: 80%;
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .modal-content {
 	text-align: center;
+	border: 0;
+	border-radius: 0;
 
 	img {
-		max-width: 100%;
+		max-width: 50%;
+	}
+
+	.fechar {
+		position: absolute;
+		display: block;
+		top: 30px;
+		right: 30px;
+
+		img {
+			max-width: 100%;
+		}
 	}
 }

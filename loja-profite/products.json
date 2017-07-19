@@ -1,10 +1,52 @@
 {
-	"product":[
-		{
-			"nome":"Título"
-		},
-		{
-			"nome":"Título2"
-		}
-	]
+	"produto1": {
+		"id": "1",
+		"img": "calcado1.png",
+		"nome": "Sandália Ferracini Ecologic",
+		"from": "",
+		"preco": "95,92",
+		"vezes": "4",
+		"vezesde": "23,98",
+		"economize": "43,98"
+	},
+	"produto2": {
+		"id": "2",
+		"img": "calcado2.png",
+		"nome": "Chinelo Kildare",
+		"from": "De: R$ 99,90",
+		"preco": "79,92",
+		"vezes": "3",
+		"vezesde": "26,64",
+		"economize": "19,98"
+	},
+	"produto3": {
+		"id": "3",
+		"img": "calcado3.png",
+		"nome": "Tênis Ferracini Week",
+		"from": "De: R$ 229,90",
+		"preco": "183,92",
+		"vezes": "9",
+		"vezesde": "20,43",
+		"economize": "45,98"
+	},
+	"produto4": {
+		"id": "4",
+		"img": "calcado4.png",
+		"nome": "Tênis Democrata Fan",
+		"from": "De: R$ 219,90",
+		"preco": "159,92",
+		"vezes": "7",
+		"vezesde": "22,84",
+		"economize": "59,98"
+	},
+	"produto5": {
+		"id": "5",
+		"img": "calcado2.png",
+		"nome": "Chinelo Kildare",
+		"from": "",
+		"preco": "79,92",
+		"vezes": "3",
+		"vezesde": "26,64",
+		"economize": "19,98"
+	}
 }
